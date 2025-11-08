@@ -18,8 +18,8 @@ export default function About(){
           <div className="col-md-4">
             <h5>Tech highlights</h5>
             <div>
-              {['React','Spring Boot','Python','Docker','Postgres','Kafka','C/C++'].map(s=>(
-                <span key={s} className="badge bg-light text-dark me-1 mb-1">{s}</span>
+              {['React','Spring Boot','Python','Docker','Postgres'].map(s=>(
+                <span key={s} className="badge bg-light me-1 mb-1">{s}</span>
               ))}
             </div>
           </div>
