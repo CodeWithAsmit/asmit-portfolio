@@ -35,7 +35,7 @@ export default function App() {
         <Skills />
         <Contact />
         <footer className="text-center text-muted py-4">
-          © {new Date().getFullYear()} Asmit Mohan — Built with React + Vite + Bootstrap
+          © {new Date().getFullYear()} Asmit Mohan | Personal Portfolio
         </footer>
       </main>
     </div>
