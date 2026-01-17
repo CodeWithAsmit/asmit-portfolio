@@ -4,19 +4,43 @@ export default function Skills(){
   const skillCategories = [
     {
       title: 'Languages',
-      skills: ['C', 'C++', 'Java', 'JavaScript', 'Python', 'Pro*C', 'Shell Scripting', 'SQL']
+      skills: ['Java', 'Python', 'JavaScript', 'TypeScript', 'C', 'C++', 'PHP', 'Pro*C', 'SQL', 'Bash/Shell Scripting']
     },
     {
-      title: 'Web and Frameworks',
-      skills: ['Bootstrap', 'React.js', 'Node.js', 'Spring Boot', 'Spring Security', 'Spring AI', 'Spring Cloud', 'Apache Kafka', 'Microservices', 'REST API']
+      title: 'Backend',
+      skills: ['Spring Boot', 'Spring Security', 'Spring Data JPA', 'Spring AOP', 'Spring Cloud', 'Apache Kafka', 'Node.js', 'Express.js', 'Microservices', 'REST APIs']
     },
     {
-      title: 'DB and DevOps',
-      skills: ['Oracle', 'PostgreSQL', 'MongoDB', 'MySQL', 'Git', 'GitHub', 'Docker', 'GitHub Actions', 'AWS', 'Tuxedo']
+      title: 'Frontend',
+      skills: ['React.js', 'React Router', 'React Context', 'Bootstrap', 'HTML5', 'CSS3']
     },
     {
-      title: 'Computer Science Concepts',
-      skills: ['Data Structures and Algorithms', 'Operating System', 'Object-Oriented Programming', 'Database Management System']
+      title: 'Databases',
+      skills: ['PostgreSQL', 'MySQL', 'MongoDB', 'Oracle']
+    },
+    {
+      title: 'Cloud & DevOps',
+      skills: ['AWS (EC2, RDS, IAM)', 'Docker', 'GitHub Actions', 'Git', 'CI/CD Pipelines']
+    },
+    {
+      title: 'Security',
+      skills: ['MS Entra (Azure AD)', 'OAuth2/OIDC', 'JWT', 'Role-Based Access Control', 'SSL/TLS']
+    },
+    {
+      title: 'Testing',
+      skills: ['Rest Assured', 'API Testing', 'Test Automation', 'Integration Testing']
+    },
+    {
+      title: 'AI Tools',
+      skills: ['FAISS Vector DB', 'Sentence Transformers', 'Pandas', 'MCP Servers', 'Cursor AI']
+    },
+    {
+      title: 'Tools & Methods',
+      skills: ['Maven', 'Vite', 'Lombok', 'Tuxedo', 'Linux', 'Agile/Scrum']
+    },
+    {
+      title: 'CS Fundamentals',
+      skills: ['Data Structures & Algorithms', 'System Design', 'OOP', 'DBMS']
     }
   ]
 
@@ -25,8 +49,8 @@ export default function Skills(){
       <h3 className="mb-4">Technologies and Skills</h3>
       <div className="row g-3">
         {skillCategories.map((category, idx) => (
-          <div key={idx} className="col-12">
-            <div className="card p-4">
+          <div key={idx} className="col-md-6">
+            <div className="card p-4 h-100">
               <h5 className="mb-3 fw-bold">{category.title}</h5>
               <div className="d-flex flex-wrap gap-2">
                 {category.skills.map(skill => (
