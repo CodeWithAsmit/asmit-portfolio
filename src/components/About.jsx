@@ -5,7 +5,11 @@ export default function About(){
     <section id="about" className="mb-5">
       <div className="card p-4">
         <h3>About Me</h3>
-        <p className="text-muted">Full Stack Engineer with 2+ years of experience building enterprise web applications using Java, Spring Boot, React.js, and AWS. Skilled in microservices architecture, event-driven systems with Kafka, and AI-powered developer tools using Python, FAISS, and Sentence Transformers. Strong foundation in data structures, algorithms, and system design with competitive programming experience.</p>
+        <p className="text-muted">Full-Stack Software Engineer with 2+ years of experience building scalable enterprise applications using Java, Spring
+          Boot, React, and AWS. Experienced in microservices architecture, event-driven systems (Kafka), and backend
+          performance optimization. Strong foundation in data structures, system design, and modern AI-powered developer tools.
+          Additionally, experienced in mainframe modernization projects, bridging legacy systems with modern cloud-native
+          architectures to deliver scalable, future-ready solutions.</p>
         <div className="row">
           <div className="col-md-8">
             <ul className="list-unstyled">
